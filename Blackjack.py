@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[11]:
-
 class Player(object):
     
     def __init__(self, bank = 1000):
@@ -17,23 +12,11 @@ class Player(object):
     def __str__(self):
         return "Your bank is currently at %x" %(self.bank)
 
-
-# In[12]:
-
 game = Player()
-
-
-# In[13]:
 
 game.addbet(20)
 
-
-# In[14]:
-
 game.bank
-
-
-# In[74]:
 
 import random
 
@@ -87,18 +70,4 @@ def start():
             print 'Try again - Would you like to stand or hit?'
             continue
 
-
-# In[75]:
-
 start()
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
